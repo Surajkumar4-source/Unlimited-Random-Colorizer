@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    font-size: 30px;
+    color: rgb(214, 29, 247);
+    background-color: rgb(7, 7, 7);
+    height: 80px;
+    width: 80px;
+    margin: 200px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: rgb(83, 224, 239);
+    box-shadow: 0 0 10px rgb(255, 15, 15), 0 0 20px rgb(255, 38, 194),
+        0 0 40px rgb(14, 14, 255);
+    font-size: 20px;
+}
